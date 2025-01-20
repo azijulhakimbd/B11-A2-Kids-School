@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* shared style  */
 
 .display-flex{
@@ -50,9 +54,17 @@ body{
 
 }
 /* Banner style  */
-
+.banner-container{
+    margin: 0 auto;
+}
 /* Standard Curriculum */
-
+.satandard{
+    background-image: url('/assets/bg.png');
+}
+.stan{
+    text-align: center;
+    font-weight: 900;
+}
 /* Our Stories Section */
 
 /* Footer */
