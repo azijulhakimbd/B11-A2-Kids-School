@@ -1,32 +1,53 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /* shared style  */
+
 .display-flex{
     display: flex;
 }
+body{
+    font-family: "Quicksand", serif;
+}
 /* Navbar style  */
 .nav-container{
-    
+    margin-top: 20px;
     justify-content: space-around;
 }
 .list{
-    text-decoration: none;
+    list-style: none;
 }
-.nav-img{
-    align-items: center;
-}
+
 .nav-links{
-    text-decoration: none;
+   
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .nav-link{
     text-align: center;
     gap: 10px;
     justify-content: space-between;
+    text-decoration: none;
+    font-weight: 600;
+}
+#home{
+    color: orange;
+}
+#about{
+    color: skyblue;
+}
+#facilities{
+    color: rgba(5, 212, 223, 1);
+}
+#Admission{
+    color: rgba(93, 88, 239, 1);
+}
+.btn{
+    background-color: orange;
+    border-radius: 12px;
+    width: 197px;
+    border: 0;
+    color: white;
+
 }
 /* Banner style  */
 
