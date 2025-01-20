@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* shared style  */
+.display-flex{
+    display: flex;
+}
+/* Navbar style  */
+.nav-container{
+    
+    justify-content: space-around;
+}
+.list{
+    text-decoration: none;
+}
+.nav-img{
+    align-items: center;
+}
+.nav-links{
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+}
+.nav-link{
+    text-align: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+/* Banner style  */
+
+/* Standard Curriculum */
+
+/* Our Stories Section */
+
+/* Footer */
