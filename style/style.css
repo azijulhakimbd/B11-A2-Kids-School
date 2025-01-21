@@ -13,6 +13,9 @@ body{
     font-family: "Quicksand", serif;
 }
 /* Navbar style  */
+.school{
+    text-justify: center;
+}
 .nav-container{
     margin-top: 20px;
     justify-content: space-around;
@@ -51,14 +54,35 @@ body{
     width: 197px;
     border: 0;
     color: white;
+    
 
 }
 /* Banner style  */
 .banner-container{
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 1920px;
+}
+.banner-content{
+    justify-content: space-between;
+    text-align: justify;
+}
+.banner-img{
+    justify-content: end;
+}
+.btn-2{
+    color: white;
+    background-color: #000000;
+    border-radius: 12px;
+    width: 197px;
+}
+#em{
+    color: orange;
+}
+#tow{
+    color: skyblue;
 }
 /* Standard Curriculum */
-.satandard{
+.satandard, .Our{
     background-image: url('/assets/bg.png');
 }
 .stan{
@@ -68,3 +92,6 @@ body{
 /* Our Stories Section */
 
 /* Footer */
+.footer{
+    background-color: #4d97eb;
+}
