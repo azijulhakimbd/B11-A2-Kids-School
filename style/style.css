@@ -338,7 +338,7 @@ body{
 }
 /* Mobile Resposive */
 @media screen and (max-width:576px) {
-    .logo, .navbar, .btn, .first-section{
+    .logo, .navbar, .btn, .first-section,  .arrow{
         display: none;
     }
     .menu {
@@ -359,9 +359,7 @@ body{
     .satandard{
         text-align: center;
     }
-    .arrow{
-        text-align:50%;
-    }
+   
     .bg-our{
         width: 357px;
         height: 725px;
@@ -371,11 +369,14 @@ body{
         font-weight: 900;
     }
     .second-section{
-        width:50% ;
-        height: 50%;
+        
+        margin: 50px auto;
+        padding: 50px auto;
     }
+   
     .Our{
         width: 370px;
+        height: 560px;
        
     }
     .banner-img{
@@ -383,6 +384,9 @@ body{
     }
     .footer{
         flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+        margin-top: 300px;
     }
     .banner-container{
         display: plex;
@@ -391,6 +395,7 @@ body{
         padding: 10px auto;
         width: 357px;
         height: 725px;
+        text-align: center;
     }
 
 }
