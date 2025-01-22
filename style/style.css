@@ -9,6 +9,31 @@ body{
     font-family: "Quicksand", serif;
 }
 /* Navbar style  */
+.marquee{
+    background-color:rgb(235, 188, 101);
+    color: #000000;
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(241, 221, 183);
+    margin: 0;
+    padding: 0;
+}
+.menu a:first-child img {
+    height: 40px; 
+    width: auto;
+}
+.menu a:last-child img {
+    height: 30px; 
+    width: auto;
+    cursor: pointer;
+}
+.menu a img:hover {
+    opacity: 0.8;
+}
 .school{
     text-justify: center;
 }
@@ -72,7 +97,18 @@ body{
     margin: 5% 5% 5% 45%;
     
 }
+
+
+
+
+
+
 /* Banner style  */
+
+
+
+
+
 .banner-container{
     margin: 10px auto;
     width: 1158px;
@@ -102,7 +138,17 @@ body{
 #tow{
     color: skyblue;
 }
+
+
+
+
+
 /* Standard Curriculum */
+
+
+
+
+
 
 
 
@@ -168,7 +214,20 @@ body{
     margin: 100px auto;
     padding: 0 0 0 -10px ;
 }
+
+
+
+
+
+
+
 /* Our Stories Section */
+
+
+
+
+
+
 .second-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -217,9 +276,19 @@ body{
     border-radius: 20px;
     background-color: #fff;
     margin: 10px;
-    
+
 }
+
+
+
+
+
 /* Footer */
+
+
+
+
+
 .footer{
     background-color: #4d97eb;
     justify-content: space-around;
@@ -251,4 +320,77 @@ body{
 }
 .bg-our{
     background-image: url('/assets/bg.png'), linear-gradient(#ffffff, rgb(255, 241, 215)) ;
+}
+
+
+
+
+
+/* Dekstop Rsponsive */
+
+
+
+
+@media screen and (min-width:577px){
+    .menu{
+        display: none;
+    }
+}
+/* Mobile Resposive */
+@media screen and (max-width:576px) {
+    .logo, .navbar, .btn, .first-section{
+        display: none;
+    }
+    .menu {
+        padding: 10px; 
+    }
+
+    .menu a:first-child img {
+        height: 30px; 
+    }
+
+    .menu a:last-child img {
+        height: 25px; 
+    }
+    .standard-container{
+        flex-direction: column;
+
+    }
+    .satandard{
+        text-align: center;
+    }
+    .arrow{
+        text-align:50%;
+    }
+    .bg-our{
+        width: 357px;
+        height: 725px;
+    }
+    .stan{
+        text-align: left;
+        font-weight: 900;
+    }
+    .second-section{
+        width:50% ;
+        height: 50%;
+    }
+    .Our{
+        width: 370px;
+       
+    }
+    .banner-img{
+        flex-direction: row-reverse;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .banner-container{
+        display: plex;
+        flex-direction: column-reverse;
+        margin:50px 0;
+        padding: 10px auto;
+        width: 357px;
+        height: 725px;
+    }
+
 }
